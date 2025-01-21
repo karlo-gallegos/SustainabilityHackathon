@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Ensure the body takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flexbox layout for the entire page */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Main content area */
+main {
+  flex: 1; /* This will make the main content area take up available space */
+}
+
+/* Footer is naturally pushed to the bottom */
+footer {
+  margin-top: auto; /* Push footer to the bottom of the page */
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar-nav {
+  flex-wrap: nowrap;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+a.nav-link{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.1rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
