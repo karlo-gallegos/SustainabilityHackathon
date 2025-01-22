@@ -7,6 +7,7 @@ import CommunityActions from './pages/CommunityActions';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap
 import GetInvolvedHero from './pages/GetInvolved';
+import About from './pages/About';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/water-stats" element={<WaterStats />} />
           <Route path="/get-involved" element={<GetInvolvedHero />} />
           <Route path="/community-actions" element={<CommunityActions />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <Footer />

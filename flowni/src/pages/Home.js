@@ -139,7 +139,7 @@ const Home = () => {
           </p>
           <button
             className="btn btn-success btn-lg px-4 mt-3"
-            onClick={() => navigate('/join')}
+            onClick={() => navigate('/community-actions')}
           >
             Join the Movement
           </button>

@@ -30,7 +30,7 @@ const GetInvolved = () => {
         </p>
         <button
           className="btn btn-light btn-lg px-5 py-3 shadow animate__animated animate__pulse animate__infinite"
-          onClick={() => navigate("/join")}
+          onClick={() => navigate("/community-actions")}
         >
           Get Involved
         </button>

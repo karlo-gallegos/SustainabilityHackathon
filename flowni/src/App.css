@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./assets/fonts/Expressa-DemiBold.ttf') format('truetype'); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -77,6 +84,36 @@ a.nav-link{
   padding-right: 20px;
   font-size: 1.1rem;
 }
+
+.project-title {
+  font-family: 'CustomFont', sans-serif;
+  src: url('./assets/fonts/Expressa-DemiBold.ttf') format('truetype');
+  font-size: 1.5rem;
+/*   font-weight: bold; /* Optional */
+/*   color: #fff;       Optional: Adjust color */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
 
 @keyframes App-logo-spin {
   from {
