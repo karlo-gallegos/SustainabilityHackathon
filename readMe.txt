@@ -11,7 +11,7 @@ To run this project locally, you’ll need the following installed on your machi
     React: This project uses React. Once Node.js and npm are installed, React dependencies will be installed automatically.
 
 Then navigate to the project directory:
-	cd flowni
+	cd ProjectFolder/flowni
 then to run:
 	npm start
 
